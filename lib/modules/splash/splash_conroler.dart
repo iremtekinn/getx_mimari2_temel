@@ -9,7 +9,7 @@ class SplashController extends GetxController{
   void onReady()async {
     super.onReady();
     //print("Splash sayfasi acildi");
-    await Future.delayed(Duration(microseconds: 3000));
+    await Future.delayed(Duration(milliseconds: 3000));
     Get.toNamed(Routes.HOME,parameters: {'data':'Emre Akca'});
   }
 }
